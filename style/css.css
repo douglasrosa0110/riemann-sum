@@ -1,0 +1,28 @@
+html, body {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.demo-headline {
+  margin: 0px;
+}
+
+.mdc-text-field {
+  margin-top: 24px;
+  flex-shrink: 0;
+}
+
+.greet-message {
+  margin-top: 48px; 
+}
+
+.container {
+  background: #fafafa;
+}
+
+.container > .mdc-slider {
+  --mdc-slider-bg-color-behind-component: #fafafa;
+}
