@@ -16,25 +16,40 @@
 		  <input class="mdc-text-field__input calculus-y-input" type="text"
 		         aria-labelledby="my-label-id"
 		         aria-controls="my-helper-id"
-		         aria-describedby="my-helper-id">
+		         aria-describedby="my-helper-id" value="x^2">
 		  <span class="mdc-floating-label" id="my-label-id">Function</span>
 		  <div class="mdc-line-ripple"></div>
 		</label>
 		<div class="mdc-text-field-helper-line">
-		  <div class="mdc-text-field-helper-text" id="my-helper-id" aria-hidden="true">The function that the area belongs. Ex.: X²</div>
+		  <div class="mdc-text-field-helper-text" id="my-helper-id" aria-hidden="true">The function that the area belongs. Ex.: X^2</div>
 		</div>
 
 		<label class="mdc-text-field">
 		  <div class="mdc-text-field__ripple"></div>
-		  <input class="mdc-text-field__input calculus-interval-input" type="text"
+		  <input class="mdc-text-field__input calculus-begin-x-input" type="text"
 		         aria-labelledby="my-label-id"
 		         aria-controls="my-helper-id"
-		         aria-describedby="my-helper-id">
-		  <span class="mdc-floating-label" id="my-label-id">Interval</span>
+		         aria-describedby="my-helper-id"
+		         value="1">
+		  <span class="mdc-floating-label" id="my-label-id">Begin X</span>
 		  <div class="mdc-line-ripple"></div>
 		</label>
 		<div class="mdc-text-field-helper-line">
-		  <div class="mdc-text-field-helper-text" id="my-helper-id" aria-hidden="true">The interval on the x axis. Ex.: [1,2]</div>
+		  <div class="mdc-text-field-helper-text" id="my-helper-id" aria-hidden="true">The begin of the interval on the x axis. Ex.: 1</div>
+		</div>
+
+		<label class="mdc-text-field">
+		  <div class="mdc-text-field__ripple"></div>
+		  <input class="mdc-text-field__input calculus-end-x-input" type="text"
+		         aria-labelledby="my-label-id"
+		         aria-controls="my-helper-id"
+		         aria-describedby="my-helper-id"
+		         value="2">
+		  <span class="mdc-floating-label" id="my-label-id">End X</span>
+		  <div class="mdc-line-ripple"></div>
+		</label>
+		<div class="mdc-text-field-helper-line">
+		  <div class="mdc-text-field-helper-text" id="my-helper-id" aria-hidden="true">The end of the interval on the x axis. Ex.: 2</div>
 		</div>
 
 		<label class="mdc-text-field">
@@ -42,7 +57,8 @@
 		  <input class="mdc-text-field__input calculus-divisions-input" type="text"
 		         aria-labelledby="my-label-id"
 		         aria-controls="my-helper-id"
-		         aria-describedby="my-helper-id">
+		         aria-describedby="my-helper-id"
+		         value="4">
 		  <span class="mdc-floating-label" id="my-label-id">Divisions</span>
 		  <div class="mdc-line-ripple"></div>
 		</label>
@@ -58,6 +74,7 @@
 		<div class="mdc-typography mdc-typography--overline calculate-message"></div>
 
 	  	<script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
 		<script type="text/javascript" src="script/javascript.js"></script>
 	</body>
 </html>
